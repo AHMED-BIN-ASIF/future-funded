@@ -13,17 +13,22 @@ const Header = () => {
   const [familyBtnIcon, setFamilyBtnIcon] = useState(RightIcon); // State for "Join The Family" button icon
 
   useEffect(() => {
-    requestAnimationFrame(() => {
+    const mm = gsap.matchMedia(); // Initialize GSAP matchMedia
+    mm.add("(min-width: 768px)", () => {
+      // Animation for screens wider than 768px
       gsap.fromTo(
         headerContentRef.current,
-        { opacity: 1, y: 0 }, // Initial state: fully visible and in place
+        { opacity: 1, y: 0 }, // Initial state
         {
           y: -100, // Moves up when scrolling down
           opacity: 0, // Fades out
           ease: "power3.out",
           duration: 1.5,
           scrollTrigger: {
-            
+            // trigger: headerContentRef.current,
+            // start: "top top",
+            // end: "bottom top",
+            scrub: true,
             onUpdate: (self) => {
               if (self.direction === 1) {
                 // Scroll down
@@ -43,9 +48,11 @@ const Header = () => {
         }
       );
     });
+
+    return () => {
+      mm.revert(); // Revert GSAP matchMedia on cleanup
+    };
   }, []);
-
-
 
   const handleMouseEnter = () => {
     setFamilyBtnIcon(RightIconGreen); // Change to green icon when hover over "Join The Family" button

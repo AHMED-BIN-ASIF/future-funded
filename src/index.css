@@ -190,6 +190,12 @@ a.btn.blue:hover {
   
     animation: rainbow 10s ease infinite;
   }
+  .bg-rotate-small { 
+  background: linear-gradient(345deg, #00c48700 20%, #00c487 50%,  #00c48700 80%);
+  background-size: 300% 100%;
+  
+    animation: rainbow 5s ease infinite;
+  }
   @keyframes rainbow { 
       0%{background-position:0% 82%}
       50%{background-position:100% 19%; }

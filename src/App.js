@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import "@fontsource/lexend";
 import Header from './components/Header';
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -15,7 +15,7 @@ function App() {
       <div>
         <AppRoutes />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

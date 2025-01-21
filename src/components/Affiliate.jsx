@@ -29,7 +29,7 @@ const Affiliate = () => {
             }}
           >
             <div className="order-1 flex flex-col justify-center gap-[10px] items-start max-md:order-2">
-              <div className="bg-rotate-animation p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
+              <div className="bg-rotate-small p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
                 <span className="] text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
                   Step 1
                 </span>
@@ -55,7 +55,7 @@ const Affiliate = () => {
             }}
           >
             <div className="order-2 flex flex-col justify-center gap-[10px] items-start">
-              <div className="bg-rotate-animation p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
+              <div className="bg-rotate-small p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
                 <span className="] text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
                   Step 2
                 </span>
@@ -81,7 +81,7 @@ const Affiliate = () => {
             }}
           >
             <div className="order-1 flex flex-col justify-center gap-[10px] items-start max-md:order-2">
-              <div className="bg-rotate-animation p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
+              <div className="bg-rotate-small p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
                 <span className="] text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
                   Step 3
                 </span>
@@ -109,7 +109,7 @@ const Affiliate = () => {
             }}
           >
             <div className="order-1 flex flex-col justify-center gap-[10px] items-start max-md:order-2">
-              <div className="p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
+              <div className="bg-rotate-small p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
                 <span className="] text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
                   Step 4
                 </span>
@@ -135,8 +135,8 @@ const Affiliate = () => {
             }}
           >
             <div className="order-2 flex flex-col justify-center gap-[10px] items-start">
-              <div className="p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
-                <span className="] text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
+              <div className="bg-rotate-small p-[1px] rounded-[11px] bg-[linear-gradient(345deg,_rgba(0,196,135,0)_0%,_rgba(0,196,135,1)_50%,_rgba(0,196,135,0)_100%)]">
+                <span className=" text-[12px] px-[12px] py-[6px] text-white rounded-[11px] border border-solid border-[rgba(0,196,135,0)] bg-combined-gradient">
                   Step 5
                 </span>
               </div>

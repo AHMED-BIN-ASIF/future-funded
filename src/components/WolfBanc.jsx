@@ -93,7 +93,7 @@ const WolfBanc = () => {
         </div>
       </div>
       {/* wolf */}
-      <div className="absolute top-[-200px] left-0 max-xl:top-[-20px] max-xl:w-[50%]">
+      <div className="absolute top-[-200px] left-0 max-xl:top-[-20px] max-xl:w-[50%] block max-md:hidden">
         <img src={Wolf} alt="wolf" />
       </div>
     </section>
